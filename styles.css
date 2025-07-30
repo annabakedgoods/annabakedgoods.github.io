@@ -1,0 +1,158 @@
+:root {
+    --green: #2c6e49;
+    --light-orange: #ffc9b9;
+    --light-yellow: #fefee3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto-regular {
+    font-family: "Roboto Flex";
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-image: url(assets/Light-Wood-Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+
+.header .logo {
+    margin: 3vw auto;
+    text-align: center;
+}
+
+.header .logo img {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    width: 100vw;
+    position: relative;
+    right: 3px;
+}
+
+.header .pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15vw;
+}
+
+.header .pricing .price{
+    font-size: 14px;
+    color: var(--light-yellow);
+    background-color: var(--green);
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.cookie-list {
+    margin: 5vh 0 0;
+    padding: 0 2vw;
+}
+
+.cookie-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin: 5vw auto;
+}
+
+.cookie img {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    width: 25vw;
+    height: 25vw;
+    border: solid 2px var(--light-orange);
+    border-radius: 50%;
+}
+
+.cookie .cookie-name {
+    text-align: center;
+    margin: 1.5vh auto;
+    font-size: 10px;
+    font-family: "Roboto Flex";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 5px;
+    border-radius: 15px;
+    color: var(--green);
+    border: solid 2px var(--green);
+    background: var(--light-yellow);
+    max-width: 25vw;
+    
+}
+
+.contact {
+    margin: 2vw auto 5vw;
+}
+
+.contact .contact-label {
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+.contact .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2vw;
+    max-width: 90vw;
+}
+
+.contact .links div {
+    font-size: 12px;
+    font-family: "Roboto Flex";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background: var(--light-orange);
+    border: solid 2px black;
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin-top: 2vw;
+    cursor: pointer;
+}
+
+.contact .links div img {
+    height: 3.5vw;
+    width: 3.8vw;
+    display: inline;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    top: 0.2vh;
+}
+
+footer {
+    height: 2rem;
+    color: black;
+    padding: 5px 10px 0;
+    text-align: right;
+    font-size: 10px;
+}
