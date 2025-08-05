@@ -13,7 +13,7 @@ document.getElementById("email").addEventListener("click", () => {
 });
 
 document.getElementById("venmo").addEventListener("click", () => {
-    window.open("https:/venmo.com/u/Anna-Tran-17", "_blank");
+    window.open("https://venmo.com/u/Anna-Tran-17", "_blank");
 });
 
 /*function sendEmail() {
