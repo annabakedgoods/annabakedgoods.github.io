@@ -186,6 +186,58 @@ footer {
     .contact .links div img {
         height: 1.5vw;
         width: 1.8vw;
-        top: 0.2vh;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+    .header .pricing {
+        gap: 30vw;
+    }
+
+    .header .pricing .price {
+        font-size: 24px;
+    }
+
+    .cookie .cookie-name {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .contact .links div {
+        font-size: 16px;
+    }
+
+    .contact .links div img {
+        height: 1.5vw;
+        width: 1.8vw;
+    }
+}
+
+@media (min-width: 1400px) {
+    .header .pricing {
+        gap: 35vw;
+    }
+
+    .header .pricing .price {
+        font-size: 28px;
+    }
+
+    .cookie .cookie-name {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .contact .contact-label {
+        font-size: 44px;
+        margin-bottom: 0.5vw;
+    }
+
+    .contact .links div {
+        font-size: 20px;
+    }
+
+    .contact .links div img {
+        height: 0.8vw;
+        width: 1vw;
     }
 }
